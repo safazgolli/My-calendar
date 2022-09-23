@@ -33,10 +33,10 @@ function hourTrack(){
 
   $(".time-block").each(function(){
 
-  // git the id attribute from each raw and split the number from the 
+  // get the id attribute from each raw and take te number part whishis conseder 1 letter and converted to integer 
     var blockHr = parseInt($(this).attr("id").split("hour")[1]);
     console.log(blockHr, currentHr)
-
+  //comparing the tim
     if(blockHr < currentHr){
       $(this).addClass("past");
       $(this).removeClass("future");
