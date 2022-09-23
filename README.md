@@ -8,7 +8,7 @@ I used the [Moment.js](https://momentjs.com/) library to work with date and time
 
 
 
-##  About the App:
+##  About the web App:
 
 
 * I am using a daily planner to create a schedule
@@ -18,3 +18,6 @@ I used the [Moment.js](https://momentjs.com/) library to work with date and time
 * If I click into a timeblock, I can enter an event.
 * If I click the save button for that timeblock, the text for that event is saved in local storage.
 * I refresh the page, the saved events persist.
+ 
+ ## link to the web App:
+  https://safazgolli.github.io/My-calendar/
